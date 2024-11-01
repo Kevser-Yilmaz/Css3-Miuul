@@ -205,3 +205,17 @@
 .custom-table tbody tr:nth-child(even){
     background-color: #f2f2f2;
 }
+
+/* rem=html em=body calc: hesaplama */
+/* html{
+    font-size: 10px;
+} */
+
+body{
+    font-size: 20px;
+}
+
+#parag6{
+    /* font-size: 2rem; */
+    font-size: calc(2em + 10px);
+}
