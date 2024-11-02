@@ -217,5 +217,14 @@ body{
 
 #parag6{
     /* font-size: 2rem; */
-    font-size: calc(2em + 10px);
+    font-size: calc(1em + 10px);
+}
+
+/* image */
+#image_id{
+    background-image: url("./image/1.png");
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+
 }
