@@ -228,3 +228,27 @@ body{
     height: 250px;
 
 }
+
+/* header */
+header{
+    background-image: url("./image/2.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 22px;
+    height: 75vh; /* view port: tarayıcınız bize sağladığı,kulllanıcının görebildiği alandır*/
+    text-align: center;
+    
+
+}
+
+#linear_gradient_id{
+    
+    background: linear-gradient(to right, #f06179, #7bb2f1);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 22px;
+    height: 75vh;
+
+}
