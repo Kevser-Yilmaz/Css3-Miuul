@@ -252,3 +252,23 @@ header{
     height: 75vh;
 
 }
+
+/* Float_examples */
+.float_example{
+    float: left;
+    margin-left: 10px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*clip_path*/
+#clip_path_id{
+    background-color: yellow;
+    min-height: 300px;
+    max-width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+}
