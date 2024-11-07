@@ -366,7 +366,7 @@ a:active{
     }
 }
 
-/* 468<= Responsive<=768 */
+/* 1200<= Responsive */
 @media (min-width:1200px){
     .miuul_responsive_design{
         background-color: red;
@@ -374,4 +374,38 @@ a:active{
         width: 24%;
         display: inline-block;
     }
+}
+
+/* flexbox */
+.miuul_flexbox1{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+.miuul_flexbox2{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+    padding: 15px;
+    border: 1px solid blue;
+}
+
+.miuul_flexbox3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miuul_flexbox3  .child{
+    margin: 12px;
+    padding: 12px;
+    border: 1px solid #cc2;
 }
